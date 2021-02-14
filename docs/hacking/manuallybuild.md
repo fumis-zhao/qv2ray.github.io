@@ -64,7 +64,9 @@ title: 手动构建 Qv2ray 项目
 :::
 
 :::warning
-确保你安装了 `grpc_cpp_plugin` 和 `protoc`, 它们在下一步中由 `cmake` 使用.
+确保你安装了 `grpc_cpp_plugin` 和 `protoc`, 并确保Protobuf编译器版本与相应库版本一致，linux可使用
+   sudo apt-get install protobuf-compiler
+它们在下一步中由 `cmake` 使用.
 :::
 
 ### 构建脚本
